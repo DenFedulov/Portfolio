@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@layer app {
+
+    :root,
+    :host {
+        --app-main-bg-color: #042710;
+        --app-secondary-bg-color: #114729;
+        --app-text-color: #daeddc;
+    }
+}
+
+body {
+    background: linear-gradient(to right,
+            var(--app-main-bg-color),
+            var(--app-secondary-bg-color),
+            var(--app-secondary-bg-color),
+            var(--app-secondary-bg-color),
+            var(--app-main-bg-color));
+    color: var(--app-text-color);
+}
+
+.font-zen {
+    font-family: 'ZenKakuGothicAntique-Regular';
+}
+
+.font-zen-bold {
+    font-family: 'ZenKakuGothicAntique-Bold';
+}
+
+.font-zen-medium {
+    font-family: 'ZenKakuGothicAntique-Medium';
+}
+
+.font-zen-light {
+    font-family: 'ZenKakuGothicAntique-Light';
+}
+
+.app-text-color {
+    color: var(--app-text-color);
+}
+
+.tag {
+    @apply bg-blue-800 rounded-full py-1 px-2 ;
+}
+
+.button {
+    @apply bg-green-800 py-1 px-2 rounded-xl inline-block;
+}
+
+.button:hover {
+    @apply bg-green-700;
+}
+
+.button:active {
+    @apply bg-green-900;
+}
+
+.table-row {
+    @apply border-b border-b-emerald-500/25 last:border-none;
+}
+
+.app-table-cell {
+    @apply py-3 pr-2;
+}
+
+.transition-ease {
+    transition: all 0.3s ease;
+}
+
+svg.icon path {
+    fill: currentColor
+}
+
+.media-icon {
+    opacity: 0.5;
+}
+
+.media-icon:hover {
+    opacity: 0.8;
+}
+
+select option {
+    background-color: var(--app-main-bg-color);
+}

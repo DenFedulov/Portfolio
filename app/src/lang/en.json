@@ -1,0 +1,63 @@
+{
+    "name": "Denis Fedulov",
+    "job-title": "Web-developer",
+    "hire": "Hire me",
+    "select-language": "Select Language",
+    "about-home": "About",
+    "about-home-p": {
+        "1": "Full-stack developer with 2+ years of experience in building and optimizing web applications. Experienced in both developing projects from scratch and improving existing ones, including service integrations, API creation, and performance optimization. Have worked with high-load systems and complex business logic, communicating directly with clients to help find optimal solutions."
+    },
+    "projects-home": "Projects",
+    "project-home": {
+        "1": {
+            "name": "API Integration between {Aerodar} and {Ozon}",
+            "desc": "System to manage shipments based on accepted packages, and special handling of non-standard packages"
+        },
+        "2": {
+            "name": "{amoCRM} Widget {demo}",
+            "desc": "Enabled lead creation in amoCRM from any source, featuring flexible configuration, duplicate checks, and user-friendly setup"
+        },
+        "3": {
+            "name": "Private {amoCRM} Widget \"Deal Distribution\" for {TandemTrack}",
+            "desc": "Automated assignment of deals to managers based on user configuration"
+        },
+        "4": {
+            "name": "Private {amoCRM} Widget \"Call Distribution\" for {EstateLiga}",
+            "desc": "Tracks system-generated calls and dynamically reassigned them to the correct contacts"
+        }
+    },
+    "projects": {
+        "title": "All projects",
+        "year": "Year",
+        "name": "Project Name",
+        "at": "Made at",
+        "type": "Type",
+        "tools": "Built with",
+        "link": "Link",
+        "types": {
+            "client": "Client project",
+            "company": "Internal company project",
+            "personal": "Personal project"
+        }
+    },
+    "experience-home": "Experience",
+    "job": {
+        "1": {
+            "date": "December 2022 - March 2025",
+            "position": "Software Developer",
+            "desc": "Development of widgets and custom solutions for amoCRM. Building integrations between various services. Creating internal tools and solutions"
+        },
+        "2": {
+            "date": "February 2020 – May 2021",
+            "position": "Software Support Engineer",
+            "desc": "Linux server administration. Database maintenance and support. Assisting clients with software setup and usage"
+        }
+    },
+    "contact": {
+        "title": "You can contact me via",
+        "preferred": " - for fastest reply (preferred method)",
+        "socials": " - or you can message me here",
+        "mail": "Business email: "
+    },
+    "resume": "View full resume"
+}

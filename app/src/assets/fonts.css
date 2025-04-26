@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'ZenKakuGothicAntique-Black';
+    src: url('@/assets/fonts/ZenKakuGothicAntique-Black.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenKakuGothicAntique-Bold';
+    src: url('@/assets/fonts/ZenKakuGothicAntique-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenKakuGothicAntique-Light';
+    src: url('@/assets/fonts/ZenKakuGothicAntique-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenKakuGothicAntique-Medium';
+    src: url('@/assets/fonts/ZenKakuGothicAntique-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenKakuGothicAntique-Regular';
+    src: url('@/assets/fonts/ZenKakuGothicAntique-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
