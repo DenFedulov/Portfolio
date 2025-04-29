@@ -6,6 +6,7 @@ import { RouterLink } from 'vue-router'
 import LanguagePicker from '@/components/LanguagePicker.vue'
 import SocialMediaIcons from '@/components/SocialMediaIcons.vue'
 import Link from '@/components/Link.vue'
+import Tag from '@/components/Tag.vue'
 
 import LeftArrow from '@/assets/icons/left-arrow.svg'
 
@@ -19,9 +20,9 @@ import LeftArrow from '@/assets/icons/left-arrow.svg'
                     <RouterLink to="/">{{ t("name") }}</RouterLink>
                 </h1>
                 <h2 class="mt-2 font-zen-medium text-xl">{{ t("job-title") }}</h2>
-                <RouterLink class="mt-4 font-zen-medium text-xl button select-none transition-ease" to="/contact">{{
-                    t("hire")
-                    }}</RouterLink>
+                <RouterLink class="mt-4 font-zen-medium text-xl button select-none transition-ease" to="/contact">
+                    <span>{{ t("hire") }}</span>
+                </RouterLink>
             </div>
             <SocialMediaIcons class="mt-6"></SocialMediaIcons>
             <LanguagePicker class="mt-4"></LanguagePicker>
@@ -53,24 +54,16 @@ import LeftArrow from '@/assets/icons/left-arrow.svg'
                         <p>{{ t("project-home.1.desc") }} </p>
                         <ul class="flex flex-wrap gap-2 mt-2">
                             <li>
-                                <div class="tag font-zen-bold">
-                                    PHP
-                                </div>
+                                <Tag>PHP</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    Bootstrap
-                                </div>
+                                <Tag>Bootstrap</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    jQuery
-                                </div>
+                                <Tag>jQuery</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    MySQL
-                                </div>
+                                <Tag>MySQL</Tag>
                             </li>
                         </ul>
                     </li>
@@ -89,24 +82,16 @@ import LeftArrow from '@/assets/icons/left-arrow.svg'
                         <p> {{ t("project-home.2.desc") }} </p>
                         <ul class="flex flex-wrap gap-2 mt-2">
                             <li>
-                                <div class="tag font-zen-bold">
-                                    PHP
-                                </div>
+                                <Tag>PHP</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    Bootstrap
-                                </div>
+                                <Tag>Bootstrap</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    Vue.js
-                                </div>
+                                <Tag>Vue.js</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    MariaDB
-                                </div>
+                                <Tag>MariaDB</Tag>
                             </li>
                         </ul>
                     </li>
@@ -124,24 +109,16 @@ import LeftArrow from '@/assets/icons/left-arrow.svg'
                         <p>{{ t("project-home.3.desc") }} </p>
                         <ul class="flex flex-wrap gap-2 mt-2">
                             <li>
-                                <div class="tag font-zen-bold">
-                                    PHP
-                                </div>
+                                <Tag>PHP</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    CSS
-                                </div>
+                                <Tag>CSS</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    jQuery
-                                </div>
+                                <Tag>jQuery</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    MariaDB
-                                </div>
+                                <Tag>MariaDB</Tag>
                             </li>
                         </ul>
                     </li>
@@ -159,14 +136,10 @@ import LeftArrow from '@/assets/icons/left-arrow.svg'
                         <p> {{ t("project-home.4.desc") }}</p>
                         <ul class="flex flex-wrap gap-2 mt-2">
                             <li>
-                                <div class="tag font-zen-bold">
-                                    PHP
-                                </div>
+                                <Tag>PHP</Tag>
                             </li>
                             <li>
-                                <div class="tag font-zen-bold">
-                                    MariaDB
-                                </div>
+                                <Tag>MariaDB</Tag>
                             </li>
                         </ul>
                     </li>
@@ -195,7 +168,8 @@ import LeftArrow from '@/assets/icons/left-arrow.svg'
                         <p>{{ t("job.2.desc") }}</p>
                     </li>
                 </ol>
-                <Link class="font-zen-medium text-xl" :href="'/Denis_Fedulov_resume_' + locale + '.pdf'">{{ t("resume") }}
+                <Link class="font-zen-medium text-xl" :href="'/Denis_Fedulov_resume_' + locale + '.pdf'">
+                {{ t("resume") }}
                 </Link>
             </section>
         </main>
