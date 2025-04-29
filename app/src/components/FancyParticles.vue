@@ -131,6 +131,13 @@ onUnmounted(() => {
 
 <style scoped>
 #particles-root {
+    /* On firefox, when using touchpad, having background color here prevents white bars */
+    background: linear-gradient(to right, 
+            var(--app-main-bg-color),
+            var(--app-secondary-bg-color),
+            var(--app-secondary-bg-color),
+            var(--app-secondary-bg-color),
+            var(--app-main-bg-color));
     position: fixed;
     z-index: -1;
     height: 100%;
