@@ -7,11 +7,19 @@ Docker in required for this project.
 ```
 docker compose up -d --build dev
 ```
+or
+```
+docker-compose up -d --build dev
+```
 App will be avalable at localhost:5137
 
 ## Running a production server
 
 ```
 docker compose up -d --build prod
+```
+or
+```
+docker-compose up -d --build prod
 ```
 App will be avalable at localhost (port 80)
