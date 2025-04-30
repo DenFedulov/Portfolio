@@ -12,7 +12,8 @@ RUN rm -rf /usr/share/nginx/html/*
 WORKDIR /app
 COPY --from=builder /app/dist /usr/share/nginx/html
 RUN chmod 644 /usr/share/nginx/html/*.*
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY ${NGINX_CONF_PATH} /etc/nginx/conf.d/default.conf
+COPY *.pem /etc/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
