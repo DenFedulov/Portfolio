@@ -13,6 +13,8 @@ services:
     build:
       context: .
       target: prod
+      args:
+        - NGINX_CONF_PATH=${NGINX_CONF_PATH}
     volumes:
       - ./app:/app
       - /app/node_modules  
