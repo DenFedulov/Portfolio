@@ -24,6 +24,10 @@ import ProjectsTableRow from '@/components/ProjectsTableRow.vue'
                     </tr>
                 </thead>
                 <tbody class="text-wrap">
+                    <ProjectsTableRow year="2025" name="Portfolio" at="" :type="t('projects.types.personal')"
+                        :tags="['Vue.js', 'Tailwindcss', 'Docker']" linkName="github.com"
+                        link="https://github.com/DenFedulov/Portfolio/"></ProjectsTableRow>
+                    
                     <ProjectsTableRow year="2025" name="FileTagManager" at="" :type="t('projects.types.personal')"
                         :tags="['Cmake', 'C++', 'SQLite']" linkName="github.com"
                         link="https://github.com/DenFedulov/FileTagManager/"></ProjectsTableRow>
