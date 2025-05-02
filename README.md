@@ -22,4 +22,4 @@ or
 ```
 docker-compose up -d --build prod
 ```
-App will be avalable at localhost (port 80)
+App will be avalable at localhost (port 80, and 443 if non local confing is used)
